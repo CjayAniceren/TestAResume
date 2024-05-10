@@ -1,0 +1,113 @@
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Modern font */
+    background: linear-gradient(to bottom, #e0eafc, #cfdef3); /* Light gradient background */
+    color: #333; /* Default text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Resume container */
+.resume {
+    max-width: 850px; /* Wider container for more space */
+    margin: 40px auto; /* Center with extra top margin */
+    background-color: #ffffff; /* White background */
+    padding: 25px; /* Consistent padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); /* Larger shadow for depth */
+}
+
+/* Header section */
+.header {
+    text-align: center;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background for the header */
+    padding: 30px 0; /* Extra padding */
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
+}
+
+.profile-photo {
+    border: 3px solid #fff; /* White border to separate from the gradient */
+    border-radius: 50%; /* Circular shape */
+    height: 150px;
+    width: 150px;
+    object-fit: cover; /* Ensure image fits */
+    margin-bottom: 10px; /* Space between photo and name */
+}
+
+.header h1 {
+    font-size: 30px; /* Larger font for name */
+    font-weight: bold; /* Bold for emphasis */
+    color: #fff; /* White text to contrast with gradient */
+}
+
+/* Section headings */
+h2 {
+    font-size: 22px; /* Larger font for section headings */
+    color: #ff7e5f; /* Same color as gradient */
+    border-bottom: 2px solid #ff7e5f; /* Border in the same color */
+    padding-bottom: 5px; /* Padding below headings */
+    margin-bottom: 15px; /* Margin below headings */
+}
+
+/* Content sections */
+.contact,
+.skills,
+.languages,
+.summary,
+.education,
+.certifications {
+    margin-bottom: 25px; /* Consistent spacing between sections */
+}
+
+/* Skills and languages with tooltips */
+.skills li,
+.languages li {
+    position: relative; /* Positioning for tooltip */
+}
+
+.tooltip {
+    position: absolute;
+    top: -30px; /* Position above the element */
+    left: 100px; /* Position to the right of the text */
+    background-color: #ff7e5f; /* Tooltip background */
+    color: #fff; /* Tooltip text color */
+    padding: 5px 10px; /* Padding inside tooltip */
+    border-radius: 5px; /* Rounded corners */
+    opacity: 0; /* Initially invisible */
+    transition: opacity 0.3s; /* Smooth transition */
+}
+
+/* Show tooltip on hover */
+.skills li:hover .tooltip,
+.languages li:hover .tooltip {
+    opacity: 1; /* Make the tooltip visible on hover */
+}
+
+/* Contact section styling */
+.contact {
+    font-size: 16px; /* Default font size for content */
+}
+
+.contact a {
+    color: #ff7e5f; /* Matching color for links */
+    text-decoration: none; /* No underline */
+}
+
+.contact a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Unordered lists */
+ul {
+    list-style-type: square; /* Change bullet style */
+    padding-left: 25px; /* More space for indentation */
+}
+
+ul li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* Additional formatting for Summary */
+.summary p {
+    line-height: 1.6; /* Increased line-height for readability */
+}
