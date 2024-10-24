@@ -1,7 +1,7 @@
 /* Global styles */
 body {
     font-family: 'Roboto', sans-serif; /* Modern font */
-    background: linear-gradient(to bottom, #e0eafc, #cfdef3); /* Light gradient background */
+    background: linear-gradient(to bottom, #e0f7fa, #b2ebf2); /* Light bluish gradient background */
     color: #333; /* Default text color */
     margin: 0;
     padding: 0;
@@ -20,7 +20,7 @@ body {
 /* Header section */
 .header {
     text-align: center;
-    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background for the header */
+    background: linear-gradient(to right, #00bcd4, #009688); /* Bluish gradient background for the header */
     padding: 30px 0; /* Extra padding */
     border-radius: 10px 10px 0 0; /* Rounded top corners */
 }
@@ -43,8 +43,8 @@ body {
 /* Section headings */
 h2 {
     font-size: 22px; /* Larger font for section headings */
-    color: #ff7e5f; /* Same color as gradient */
-    border-bottom: 2px solid #ff7e5f; /* Border in the same color */
+    color: #00bcd4; /* Bluish color for headings */
+    border-bottom: 2px solid #00bcd4; /* Border in the same color */
     padding-bottom: 5px; /* Padding below headings */
     margin-bottom: 15px; /* Margin below headings */
 }
@@ -69,7 +69,7 @@ h2 {
     position: absolute;
     top: -30px; /* Position above the element */
     left: 100px; /* Position to the right of the text */
-    background-color: #ff7e5f; /* Tooltip background */
+    background-color: #00bcd4; /* Tooltip background */
     color: #fff; /* Tooltip text color */
     padding: 5px 10px; /* Padding inside tooltip */
     border-radius: 5px; /* Rounded corners */
@@ -89,7 +89,7 @@ h2 {
 }
 
 .contact a {
-    color: #ff7e5f; /* Matching color for links */
+    color: #00bcd4; /* Bluish color for links */
     text-decoration: none; /* No underline */
 }
 
